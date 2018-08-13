@@ -5,19 +5,16 @@ We'll be using Python 3, JupyterLab, and `pandas`. I recommend using Anaconda or
 Below are a few different options for setting up your laptop for the workshop. You'll want to have the software installed and working properly before the workshop starts. Sometimes a few minor tweaks are needed to get the software working on different systems, so if you have any problems please email me (jenfly@gmail.com) to help you sort things out.
 
 #### JupyterLab
-For our development environment, we'll be working in JupyterLab (or the standalone Jupyter notebook application, if you prefer). In order to 
+For our development environment, we'll be working in JupyterLab (or the standalone Jupyter notebook application, if you prefer). If Jupyter is new to you, please familiarize yourself prior to the workshop by working through this short **[JupyterLab quick-start tutorial](https://jenfly.github.io/jupyter-quickstart/)** (*currently under construction - I will post an announcement when the tutorial is ready*.) This will help us maximize the time available for focusing on `pandas`. 
 
-If these tools are new to you, I suggest 
-
-working through this short [JupyterLab quick-start tutorial](https://jenfly.github.io/jupyter-quickstart/) prior to the workshop to get comfortable with Jupyter
 
 #### Data and Workshop Materials
-**July 4, 2018 Update**: Data files and other workshop materials are now **[ready for download](https://github.com/jenfly/pydata-intro-workshop/archive/master.zip)**!
+Under construction! I will post an announcement when data files and other workshop materials are ready for download.
 
 
 ### Installation Option A: Full Anaconda Distribution
 
-This option is the easiest to set up and start using, especially if you don't have much experience working at the command line. The full Anaconda distribution includes Python, JupyterLab, and all the data analysis libraries we'll be using in the workshop (plus hundreds of others).
+This option is the easiest to set up and start using. The full Anaconda distribution includes Python, JupyterLab, and `pandas` (plus hundreds of other popular data analysis libraries). With this option, you don't need any experience with the command line - you can use the graphical interface (Anaconda Navigator) to launch JupyterLab and manage libraries. Or you can work from the command line, if you prefer.
 
 However, this option **requires the most disk space&mdash;just under 6 GB** on Windows and I'm assuming similar on a Mac.
 
@@ -42,23 +39,27 @@ To make sure JupyterLab is working, look for the "lab" icon on the Anaconda Navi
 
 ![JupyterLab](img/screenshots/jupyterlab.png)
 
+If you prefer working from the command line, you can instead follow the instructions in Step 2 and Step 4 of the Option B section below.
+
 
 ### Installation Option B: Miniconda
 
-If you want a more minimal installation and prefer to run programs from the command line instead of a graphical interface, you can instead install Miniconda, a bare bones version of Anaconda that includes just Python, the `conda` package manager, and a few libraries that `conda` needs. You'll then need to use `conda` to install the other 3rd party libraries that we'll be using in the workshop. For this option, you'll need about **4 GB** free disk space.
+If you want a more minimal installation and are comfortable working from the command line, you can instead install Miniconda, a bare bones version of Anaconda that includes just Python, the `conda` package manager, and a few libraries that `conda` needs. You'll then need to use `conda` to install the other 3rd party libraries that we'll be using in the workshop. For this option, you'll need about **4 GB** free disk space.
 
 #### Step 1: Download and Install Miniconda
 
 Download the latest **Python 3 version** for your operating system from the **[Miniconda download page](https://conda.io/miniconda.html)** and run the installer, making sure to use all the recommended default settings. This installation is much quicker than the full Anaconda distribution and will probably only take a few minutes.
 
-
-#### Step 2: Install 3rd Party Libraries
+<a id="commandline"></a>
+#### Step 2: Test Miniconda Installation 
 
 Next, you'll need to check your Miniconda installation and then install several 3rd party libraries using `conda`. If you're on Windows, look for a newly installed program called "Anaconda Prompt" and run it to open up a console similar to the screenshot below. If you're on a Mac, look for a program called "Terminal" in the Launchpad, and run it to open a console window.
 
 In either the Windows or the Mac version of the console, type `conda list` and then hit `Enter` to display a list of the currently installed libraries, as in the screenshot.
 
 ![Miniconda](img/screenshots/miniconda1.png)
+
+#### Step 3: Install 3rd Party Libraries
 
 To install the libraries you'll need for the workshop, enter the following command in your console window:
 ```
@@ -67,7 +68,8 @@ conda install jupyterlab pandas matplotlib
 
 Follow the prompts to complete the installation. Then you can run the command `conda list` again in the console, and scroll through the (now much longer) list to confirm that the new libraries have been installed. As you continue to explore Python and want to try out more libraries, you can install them using the `conda install` command in the console.
 
-#### Step 3: Test JupyterLab
+
+#### Step 4: Test JupyterLab
 
 To make sure JupyterLab is working, run the following command in the console window:
 
@@ -78,8 +80,8 @@ jupyter lab
 A new tab should open up in your default web browser, which will look similar to the screenshot [shown above in Option A](#jupyterlab). If so, success!  You're all set! You can start exploring JupyterLab, or just close the browser tab and close the console window to exit the program.
 
 
-### Option C: Installation with `pip`
+### Installation Option C: pip
 
-If you already use `pip` and prefer to use it for package management, go forth and do your thing! You'll want a Python 3.6 environment with `jupyterlab`, `pandas`, and `matplotlib`.
+If you already use `pip` and prefer to use it for package management, go forth and do your thing! You'll want a Python 3 environment with `jupyterlab`, `pandas`, and `matplotlib`.
 
-[back to workshop main page](https://jenfly.github.io/pydata-intro-workshop/)
+[back to workshop main page](https://jenfly.github.io/pyladies-pandas/)
