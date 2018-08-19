@@ -1,6 +1,6 @@
 # Computer Setup Instructions
 
-We'll be using Python 3, JupyterLab, and `pandas`. I recommend using Anaconda or Miniconda to set up your environment. Anaconda/Miniconda are Python distributions which include core Python plus a package manager (`conda`) to manage all the 3rd party libraries you'll need for data analysis.
+We'll be using Python 3.6, JupyterLab, and `pandas`. I recommend using Anaconda or Miniconda to set up your environment. Anaconda/Miniconda are Python distributions which include core Python plus a package manager (`conda`) to manage all the 3rd party libraries you'll need for data analysis.
 
 Below are a few different options for setting up your laptop for the workshop. You'll want to have the software installed and working properly before the workshop starts. Sometimes a few minor tweaks are needed to get the software working on different systems, so if you have any problems please email me (jenfly@gmail.com) to help you sort things out.
 
