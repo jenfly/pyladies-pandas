@@ -1,4 +1,8 @@
 scratch/
+wrangling/environment-canada/data/raw/
+wrangling/environment-canada/data/processed/
+wrangling/environment-canada/data/workshop/
+wrangling/bc-baby-names/processed/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
