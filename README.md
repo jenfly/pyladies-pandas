@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Data Analysis with Pandas
+## PyLadies Vancouver Workshop
 
-You can use the [editor on GitHub](https://github.com/jenfly/pyladies-pandas/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In this workshop, we will dive into the Pandas library - Python's powerhouse for data wrangling and analysis. With an emphasis on exploratory data analysis techniques, we'll work with real-world data to develop fundamental Pandas skills, including:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Reading and writing CSV files
+- Basic calculations and graphs with Pandas data structures
+- Summary statistics for numerical and categorical data
+- Sorting and filtering
+- Grouping and aggregation
+- Indexing and subsets
 
-### Markdown
+### Skill Level: Intermediate
+To get the most out of this workshop, you'll want to be already comfortable with Python basics. You do not need any prior experience with Pandas or any other libraries.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Setup
+You'll want to bring your laptop for lots of hands-on practice as we work through the lessons and exercises. We'll be using Python 3.6, JupyterLab, and Pandas.
 
-```markdown
-Syntax highlighted code block
+Please make sure to download and install the required libraries on your laptop prior to the workshop. For setup instructions, please see: https://jenfly.github.io/pyladies-pandas/SETUP.
 
-# Header 1
-## Header 2
-### Header 3
+### Instructor
+Jennifer Walker is an environmental scientist at UBC, spending most of her days blissfully analyzing data in Python. When she's not working on her academic research, she can often be found around town teaching Ladies Learning Code workshops or volunteering as an analyst and data ambassador with Data for Good.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jenfly/pyladies-pandas/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Github: https://github.com/jenfly
+- LinkedIn: https://www.linkedin.com/in/jennifermariewalker/
