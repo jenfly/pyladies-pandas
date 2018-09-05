@@ -5,11 +5,11 @@ We'll be using Python 3.6, JupyterLab, and `pandas`. I recommend using Anaconda 
 Below are a few different options for setting up your laptop for the workshop. You'll want to have the software installed and working properly before the workshop starts. Sometimes a few minor tweaks are needed to get the software working on different systems, so if you have any problems please email me (jenfly@gmail.com) to help you sort things out.
 
 #### JupyterLab
-For our development environment, we'll be working in JupyterLab (or the standalone Jupyter notebook application, if you prefer). If Jupyter is new to you, please familiarize yourself prior to the workshop by working through this short **[JupyterLab quick-start tutorial](https://jenfly.github.io/jupyter-quickstart/)** (*currently under construction - I will post an announcement when the tutorial is ready*.) This will help us maximize the time available for focusing on `pandas`. 
+For our development environment, we'll be working in JupyterLab (or the standalone Jupyter notebook application, if you prefer). If Jupyter is new to you, please familiarize yourself prior to the workshop by working through this short **[JupyterLab quick-start tutorial](http://nbviewer.jupyter.org/github/jenfly/jupyter-quickstart/blob/master/quickstart.ipynb)**. This will help us maximize the time available for focusing on `pandas`. 
 
 
 #### Data and Workshop Materials
-Under construction! I will post an announcement when data files and other workshop materials are ready for download.
+**Sep 4, 2018 update:** Data files and other workshop materials are now available for download! You can download the [zipped folder](https://github.com/jenfly/pyladies-pandas/archive/master.zip) or fork the [Github repo](https://github.com/jenfly/pyladies-pandas/).
 
 
 ### Installation Option A: Full Anaconda Distribution
